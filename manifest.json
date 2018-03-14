@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Salesforce Admin Tools",
+  "version": "1.0",
+
+  "description": "Salesforce Admin Tools helps to save time and perform multiple Admins tasks efficiently.",
+
+  "icons": {
+    "48": "icons/tools-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/tools-32.png",
+    "default_title": "Salesforce Admin Tools",
+    "default_popup": "popup/chooseAction.html"
+  },
+  
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
